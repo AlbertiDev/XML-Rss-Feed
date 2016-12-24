@@ -1,2 +1,2 @@
 # XML-Rss-Feed
-IT and Dev Jobs in web
+Browse from collection of IT and Software Developer jobs that are listings, including openings in full time and part time.
