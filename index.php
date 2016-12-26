@@ -5,7 +5,8 @@ $url = "http://kosovajob.com/job-category/informatike-software/feed/";
 $xml = simplexml_load_file($url);
 foreach ($xml->channel->item as $element) {
 	$title = $element->title;
-	$link = $element->link;
+	//$link = $element->link;
+	$link = "http://kosovajob.com/home.php?catID=94&token=14827895741482789574-8";
 	//$description = $element->description;
 	$moreInfo = $element->children("content", true);
 	//$pubDate = $element->pubDate;	
