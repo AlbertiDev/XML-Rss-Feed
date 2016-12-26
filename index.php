@@ -1,6 +1,7 @@
 <?php
 $html = "";
-$url = "local-it-job.xml";
+//$url = "local-it-job.xml";
+$url = "http://kosovajob.com/job-category/informatike-software/feed/";
 $xml = simplexml_load_file($url);
 foreach ($xml->channel->item as $element) {
 	$title = $element->title;
